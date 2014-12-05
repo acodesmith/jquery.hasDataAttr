@@ -1,0 +1,35 @@
+{
+    "name": "hasDataAttr",
+    "title": "jQuery Has Data Attribute",
+    "description": "Returns boolean value after checking for data- attribute based on defined name",
+    "keywords": [
+        "javascript",
+        "attribute",
+        "dom",
+        "node",
+        "boolean"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Adam Smith",
+        "url": "http: //acodesmith.com"
+    },
+    "maintainers": [
+        {
+            "name": "AdamSmith",
+            "email": "adam@acodesmith.com",
+            "url": "http: //acodesmith.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "GPLv2",
+            "url": "http://www.example.com/licenses/gpl.html"
+        }
+    ],
+    "homepage": "https://github.com/acodesmith/jquery.hasDataAttr",
+    "docs": "https://github.com/acodesmith/jquery.hasDataAttr",
+    "dependencies": {
+        "jquery": ">=1.7"
+    }
+}
