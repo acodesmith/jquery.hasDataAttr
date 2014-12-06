@@ -16,7 +16,7 @@
             var attrVal = this.attr('data-'+dataAttr);
 
             if(valueType == 'boolean'){
-                return 0 !== attrVal.length;
+                return value ? 0 !== attrVal.length : 0 === attrVal.length;
             }
             if(valueType == 'string'){
                 return attrVal === value;

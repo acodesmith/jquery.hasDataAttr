@@ -33,6 +33,12 @@ if($('#myElement').hasDataAttr("modal", true)){
 if($('#myOtherElement').hasDataAttr("modal", true)){
   //do stuff
 }
+
+//Now check if it's empty
+if($('#myElement').hasDataAttr("modal", false)){
+  //do stuff
+}
+
 ```
 
 Check if the data-attribute is part of the element and the value of the attribute equals the supplied string.
