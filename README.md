@@ -53,7 +53,7 @@ if($('#myElement').hasDataAttr("modal", "coolness")){
 }
 
 //This will return true
-if($('#myOtherElement').hasDataAttr("modal", "myDiv")){
+if($('#myOtherElement').hasDataAttr("toggle", "myDiv")){
   //do stuff
 }
 ```
